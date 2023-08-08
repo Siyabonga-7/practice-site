@@ -1,0 +1,9 @@
+.first-image{
+    background-color: solid black;
+    margin: 0 auto;
+    padding: 0;
+}
+nav{
+    list-style-type: none;
+    text-decoration: none;
+}
