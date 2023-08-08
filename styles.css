@@ -1,9 +1,39 @@
-.first-image{
-    background-color: solid black;
-    margin: 0 auto;
-    padding: 0;
+.navigation{
+  width: 100;
+  height: 50px;
+  background-color: rgb(100,200,100);
+  padding: 0 auto;
+  margin: 0 auto;
+  border-radius: 10px 0 0 10px
 }
-nav{
-    list-style-type: none;
-    text-decoration: none;
+navbar{
+  background-color: rgb(200,200,200);
+  padding: 0;
+  margin: 0;
+  border-radius: 10px 0 0px 10px;
+  top: 3;
+  left: 78.2%;
+  float: right;
+}
+li{
+  display: inline;
+  margin: 10px 0 0 10px;
+  padding: 0px 10px 0 0px;
+  border-right: 1px solid black;
+}
+li:last-child{
+  border-right: 0;
+}
+ul{
+  list-style-type: none; 
+  text-decoration: none;
+  color: solid black;
+  font-family: Arial, Helvetica, sans-serif
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: red;
 }
